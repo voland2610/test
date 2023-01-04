@@ -393,8 +393,11 @@ body {
   }
 
   /* galery */
+  .galary_cont {
+    min-width: 60%;
+  }
   .galary__foto {
-    width: 110px;
+    width: 84%;
   }
   .galary__foto img {
     max-width: 110px;

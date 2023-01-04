@@ -291,6 +291,46 @@ body {
 /* media  03.01.2023 (не доделанно)*/
 @media screen and (max-width: 900px) {
   .header {
+    height: 90vh;
+  }
+  .header_container {
+    width: 90%;
+  }
+  .header_text {
+    font-size: 32px;
+  }
+  .pole {
+    position: absolute;
+    top: 8%;
+    right: -10%;
+    height: 45%;
+    margin: 0;
+  }
+  .pole2 {
+    display: block;
+    position: absolute;
+    top: 8%;
+    left: -10%;
+    height: 45%;
+    margin: 0;
+  }
+  .info_text p {
+    font-size: 18px;
+    line-height: 150%;
+  }
+  .dani_photo {
+    height: 100vh;
+    width: 50vh;
+  }
+  .galary__foto img {
+    max-width: fit-content;
+  }
+  .galary_cont {
+    min-width: 38%;
+  }
+}
+@media screen and (max-width: 400px) {
+  .header {
     height: 35vh;
     background-position: 0 0;
     background-size: contain;
@@ -320,6 +360,7 @@ body {
   }
   .info_text_box p {
     font-size: 14px;
+    line-height: 110%;
   }
   .info_text_box h4 {
     font-size: 20px;

@@ -393,11 +393,15 @@ body {
   }
 
   /* galery */
+  .galary__foto {
+    width: 110px;
+  }
   .galary__foto img {
-    max-width: 200px;
+    max-width: 110px;
   }
   .galary__text {
-    font-size: 14px;
+    font-size: 12px;
+    text-align: justify;
   }
 
   /* shave_block */

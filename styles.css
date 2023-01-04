@@ -291,9 +291,10 @@ body {
 /* media  03.01.2023 (не доделанно)*/
 @media screen and (max-width: 900px) {
   .header {
-    height: 30vh;
+    height: 35vh;
     background-position: 0 0;
     background-size: contain;
+    background-attachment: fixed;
   }
   .header_container {
     width: 80%;
@@ -304,7 +305,7 @@ body {
     font-size: 16px;
   }
   .logo {
-    width: 80%;
+    width: 70%;
   }
   .info {
     position: relative;

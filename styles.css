@@ -42,6 +42,7 @@ body {
   margin: 0 auto;
 }
 /* header */
+
 .header {
   width: 100%;
   height: 100vh;
@@ -50,7 +51,6 @@ body {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  overflow-y: scroll;
 }
 .header_container {
   width: 100%;
@@ -307,7 +307,7 @@ body {
 /* media  03.01.2023 (не доделанно)*/
 @media screen and (max-width: 900px) {
   .header {
-    height: 90vh;
+    height: 100vh;
   }
   .header_container {
     width: 90%;
@@ -347,7 +347,7 @@ body {
 }
 @media screen and (max-width: 400px) {
   .header {
-    height: 35vh;
+    height: 30vh;
     background-position: 0 0;
     background-size: contain;
     background-attachment: fixed;

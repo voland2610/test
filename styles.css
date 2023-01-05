@@ -48,6 +48,9 @@ body {
   height: 100vh;
   background: url("assets/img/header_bg.jpg") center no-repeat;
   background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   display: flex;
   justify-content: center;
   flex-direction: column;

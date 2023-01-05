@@ -442,15 +442,20 @@ body {
   }
   /* galery */
   .galary_cont {
-    max-width: 285px !important;
+    max-width: 200px !important;
+    margin-right: 2%;
+  }
+  .swiper-wrapper {
+    width: 600px;
   }
   .galary__foto {
-    width: 84%;
+    width: 200px;
   }
   .galary__foto img {
-    min-width: 285px;
+    max-width: 200px;
   }
   .galary__text {
+    width: 200px;
     font-size: 12px;
     text-align: justify;
     max-width: 285px !important;

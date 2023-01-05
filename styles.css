@@ -476,3 +476,11 @@ body {
     font-size: 22px;
   }
 }
+@media screen and (max-width: 380px) {
+  .pole2 {
+    scale: 0.3;
+  }
+  .pole3 {
+    scale: 0.3;
+  }
+}

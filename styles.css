@@ -177,8 +177,9 @@ body {
   );
 }
 .galary_cont {
-  min-width: 22%;
+  max-width: 285px;
   display: flex;
+  margin: 0 2% 0 0;
 }
 
 .galary_cont:nth-child(odd) {
@@ -441,17 +442,18 @@ body {
   }
   /* galery */
   .galary_cont {
-    min-width: 60%;
+    max-width: 285px !important;
   }
   .galary__foto {
     width: 84%;
   }
   .galary__foto img {
-    max-width: 110px;
+    min-width: 285px;
   }
   .galary__text {
     font-size: 12px;
     text-align: justify;
+    max-width: 285px !important;
   }
 
   /* shave_block */

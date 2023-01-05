@@ -360,7 +360,7 @@ body {
     min-width: 38%;
   }
 }
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 460px) {
   .header {
     height: 30vh;
     background-position: 0 0;
@@ -380,7 +380,7 @@ body {
   }
   .info {
     position: relative;
-    height: 80vh;
+    height: 60vh;
   }
   .info_text {
     width: 82%;

@@ -99,9 +99,9 @@ body {
   justify-content: center;
   align-items: center;
   background-color: #fff;
-  background-image: url(/assets/img/Photo.png);
+  background-image: url(/assets/img/photo_5251231877895929628_y.jpg);
   background-size: cover;
-  background-position: center;
+  background-position: 0 0;
 }
 .info_text {
   width: 47%;

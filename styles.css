@@ -278,61 +278,6 @@ body {
   height: 100%;
 }
 
-/* ///////////////////////// */
-/* Button & Transition */
-/* ///////////////////////// */
-
-.button a {
-  position: fixed;
-  right: 30px;
-  bottom: 15px;
-  width: 150px;
-  height: 150px;
-  z-index: 999999;
-  background: rgba(28, 88, 185, 0.8);
-  border-radius: 50%;
-  font-family: "Playfair Display";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 28px;
-  color: white;
-  text-decoration: none;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  -webkit-animation-name: "play_down";
-  -moz-animation-name: "play_up";
-  animation-duration: 1.8s;
-  animation-iteration-count: infinite;
-  box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.5);
-}
-@keyframes play_up {
-  0% {
-    -webkit-box-shadow: 0 0 rgba(47, 121, 240, 0.6);
-    -moz-box-shadow: 0 0 rgba(47, 121, 240, 0.6);
-    box-shadow: 0 0 rgba(47, 121, 240, 0.6);
-  }
-  to {
-    -webkit-box-shadow: 0 0 0 20px rgba(0, 163, 182, 0);
-    -moz-box-shadow: 0 0 0 20px rgba(0, 163, 182, 0);
-    box-shadow: 0 0 0 20px rgba(0, 163, 182, 0);
-  }
-}
-
-@keyframes play_down {
-  0% {
-    -webkit-box-shadow: 0 0 rgba(55, 55, 55, 0.6);
-    -moz-box-shadow: 0 0 rgba(55, 55, 55, 0.6);
-    box-shadow: 0 0 rgba(55, 55, 55, 0.6);
-  }
-  to {
-    -webkit-box-shadow: 0 0 0 20px rgba(55, 55, 55, 0);
-    -moz-box-shadow: 0 0 0 20px rgba(55, 55, 55, 0);
-    box-shadow: 0 0 0 20px rgba(55, 55, 55, 0);
-  }
-}
-
 /* media  03.01.2023 (не доделанно)*/
 @media screen and (max-width: 1200px) {
   .galary_cont {
@@ -474,15 +419,6 @@ body {
   .shave_logo {
     height: 70%;
     width: 50%;
-  }
-
-  /* button */
-  .button a {
-    width: 100px;
-    height: 100px;
-    font-size: 20px;
-    right: 10px;
-    bottom: 10px;
   }
 
   /* footer */

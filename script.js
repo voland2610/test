@@ -3,6 +3,3 @@ new Swiper(".galary_image", {
   loop: true,
 });
 
-jarallax(document.querySelectorAll('.header'), {
-  speed: 0.2,
-});

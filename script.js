@@ -3,4 +3,6 @@ new Swiper(".galary_image", {
   loop: true,
 });
 
-$(".parallax-window").parallax({ imageSrc: "/assets/img/heade0r_bg.jpg" });
+jarallax(document.querySelectorAll('.header'), {
+  speed: 0.2,
+});

@@ -1,5 +1,5 @@
 new Swiper(".galary_image", {
-  slidesPerView: 4,
+  slidesPerView: 'auto',
   loop: true,
+  simulateTouch: true,
 });
-

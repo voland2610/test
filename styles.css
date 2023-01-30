@@ -57,13 +57,13 @@ body {
   align-items: center;
 }
 .logo {
-  width: 70%;
+  width: 60%;
 }
 .header_text {
   font-family: "Playfair Display";
   font-style: normal;
   font-weight: 600;
-  font-size: 48px;
+  font-size: 46px;
   line-height: 130%;
   display: flex;
   align-items: center;
@@ -198,10 +198,10 @@ body {
   margin-top: 0;
 }
 .galary__text {
-  width: 85%;
+  width: 100%;
   text-align: justify;
-  font-size: 16px;
-  line-height: calc(27 / 20 * 100%);
+  font-size: 18px;
+  line-height: calc(27 / 16 * 100%);
   font-weight: 500;
   color: white;
 }

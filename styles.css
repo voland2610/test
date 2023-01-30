@@ -76,7 +76,24 @@ body {
 .info {
   width: 100%;
   height: 100vh;
-  background-image: url("assets/img/black_texture.jpg");
+  background: rgb(22, 22, 22);
+  background: -moz-radial-gradient(
+    circle,
+    rgba(22, 22, 22, 1) 3%,
+    rgba(0, 0, 0, 1) 100%
+  );
+  background: -webkit-radial-gradient(
+    circle,
+    rgba(22, 22, 22, 1) 3%,
+    rgba(0, 0, 0, 1) 100%
+  );
+  background: radial-gradient(
+    circle,
+    rgba(22, 22, 22, 1) 3%,
+    rgba(0, 0, 0, 1) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#161616",endColorstr="#000000",GradientType=1);
+  background-position: -300px 0;
 }
 .info_wrapper {
   height: 100%;
@@ -117,16 +134,16 @@ body {
 .info_text h4 {
   font-family: "Playfair Display";
   font-style: normal;
-  font-weight: 400;
+  font-weight: 500;
   font-size: 32px;
-  line-height: 130%;
+  line-height: 180%;
 }
 .info_text p {
   font-family: "Playfair Display";
   font-style: normal;
-  font-weight: 500;
-  font-size: 26px;
-  line-height: 130%;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 160%;
 }
 .pole {
   scale: 0.75;
@@ -144,7 +161,7 @@ body {
 /* gallery */
 
 .galary_image {
-  background-color: rgb(4, 3, 3);
+  background-color: #080808;
 
   min-width: 0;
   padding: 25px 0 25px 35px;
